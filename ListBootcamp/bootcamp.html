@@ -61,176 +61,214 @@
     </nav>
 
     <!-- body Section -->
-    <!-- Landing -->
-    <div class="">
-        <img src="Assets/Learning-cuate 1.svg" alt="Black Guy Think He's Smartest Student">
-        <div class="container">
-            <h2 class="fw-bold mb-1">Enchance Your Skills By Joining This Bootcamp</h2>
-            <p class="text-muted">Full Online and Hosted by Senior Practitioners. Participants are given in-depth
-                practical
-                exercises.
-                Provision of a study case that helps hone participants skills.</p>
-        </div>
-        <div class="search-button-findjob">
-            <form class="d-flex" role="search">
-                <img src="Assets/search-img.svg" alt="search icon">
-                <input class="form-control me-2" type="search" placeholder="What do you want to learn"
-                    aria-label="Search" />
-                <button class="btn btn-outline-success" type="submit">Find Job</button>
-            </form>
-        </div>
-        <!-- DROPDOWN -->
-        <div class="row">
-            <div class="col btn-group">
-                <button class="btn btn-secondary btn-lg dropdown-toggle" type="button" data-bs-toggle="dropdown"
-                    aria-expanded="false">
-                    Levels
-                </button>
-                <ul class="dropdown-menu">
-                    <li><a class="dropdown-item">Basic</a></li>
-                    <li><a class="dropdown-item">Medium</a></li>
-                    <li><a class="dropdown-item">Professional</a></li>
-                </ul>
-            </div>
-            <div class="col btn-group">
-                <button class="btn btn-secondary btn-lg dropdown-toggle" type="button" data-bs-toggle="dropdown"
-                    aria-expanded="false">
-                    Type
-                </button>
-                <ul class="dropdown-menu">
-                    <li><a class="dropdown-item">All Type</a></li>
-                    <li><a class="dropdown-item">Free</a></li>
-                    <li><a class="dropdown-item">Premium</a></li>
-                </ul>
-            </div>
-        </div>
-        <!-- CARD-BOOTCAMP -->
-        <div class="col-md-6 col-lg-4 col-xl-3">
-            <div class="card h-100 p-3 course-card">
-                <img src="https://cdn-icons-png.flaticon.com/512/1995/1995574.png" alt="Coding"
-                    class="course-icon mb-3">
-                <h5 class="card-title">Learn Basic Coding Fundamentals</h5>
-                <div class="meta text-muted mb-2">
-                    <span class="bi bi-star-fill">4.8k</span>
-                    <span class="bi bi-stopwatch-fill">30 Hours</span>
-                    <span class="bi bi-file-bar-graph-fill">Basic</span>
+    <div class="container">
+
+        <!-- Heading Landing -->
+        <section class="hero container py-5">
+            <div class="row align-items-center g-5">
+
+                <div class="col-md-6 text-center">
+                    <img src="Assets/Learning-cuate 1.svg" alt="Black Guy Think He's Smartest Student">
                 </div>
-                <p class="card-text">Focuses on a material that learns about the basics of coding, the basic languages
-                    that
-                    need to be learned.</p>
-            </div>
-        </div>
-        <div class="container-lg">
-            <div class="row row-cols-2">
-                <div class="col">
-                    <div class="row row-cols-2">
-                        <img class="md" src="Assets/card-icon/icon-card1.svg" alt="Basic Coding Bootcamp Icon"
-                            style="height: 96px;">
-                        <div class="align-items-start">
-                            <h3>Learn Basic Coding Fundamentals</h3>
-                            <p>star</p>
-                            <p>time</p>
-                            <p>levels</p>
-                        </div>
+
+                <div class="col-md-6">
+                    <h2 class="fw-bold mb-3">Enchance Your Skills By Joining This Bootcamp</h2>
+                    <p class="text-muted mb-5">Full Online and Hosted by Senior Practitioners.<br>
+                        Participants are given in-depth practical exercises.<br>
+                        Provision of a study case that helps hone participants skills.
+                    </p>
+
+                    <!-- Search Button -->
+                    <div class="search-box mt-5">
+                        <img src="Assets/search-img.svg" alt="search icon">
+                        <input class="form-control me-2" type="text" placeholder="What do you want to learn" />
+                        <button>Find Job</button>
                     </div>
-                    <p class="col">Focuses on a material that learns about the basics of coding, the basic languages
-                        that
-                        need to be
-                        learned.</p>
                 </div>
-                <div class="col">
-                    <h3>CARD2</h3>
-                    <img src="Assets/card-icon/icon-card2.svg" alt="Machine Learning Bootcamp Icon">
-                    <h3>Learn More About Machine Learnings</h3>
-                    <img src="Assets/star.svg" alt="rating-star">
-                    <img src="Assets/clock.svg" alt="clock-img">
-                    <img src="Assets/steps.svg" alt="steps-levels">
-                    <p>Focuses on what are the applications of machine learning in everyday life. As AI technology
+            </div>
+        </section>
+
+        <!-- DROPDOWN -->
+        <section class="py-4">
+            <div class="container">
+                <div class="row justify-content-start g-3">
+                    <div class="col-12 col-md-6">
+                        <select class="form-select" aria-label="Select level">
+                            <option selected disabled>Levels</option>
+                            <option value="1">Basic</option>
+                            <option value="2">Medium</option>
+                            <option value="3">Professional</option>
+                        </select>
+                    </div>
+
+                    <div class="col-12 col-md-6">
+                        <select class="form-select" aria-label="Select Type">
+                            <option selected disabled>Type</option>
+                            <option value="1">All Type</option>
+                            <option value="2">Free</option>
+                            <option value="3">Premium</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- CARD-BOOTCAMP -->
+        <div class="row row-cols-2">
+            <!-- Card 1 -->
+            <div class="col-md-6 col-12 mt-4">
+                <div class="card h-100 p-3 course-card col">
+                    <img src="Assets/card-icon/icon-card1.svg" alt="Basic Coding Bootcamp Icon"
+                        class="course-icon mb-3">
+                    <h3 class="card-title">Learn Basic Coding Fundamentals</h3>
+                    <div class="meta text-muted mb-2">
+                        <span class="bi bi-star-fill"> 4.8k</span>
+                        <span class="bi bi-stopwatch-fill"> 30 Hours</span>
+                        <span class="bi bi-file-bar-graph-fill"> Basic</span>
+                    </div>
+                    <p class="card-text">Focuses on a material that learns about the basics of coding, the basic
+                        languages
+                        that need to be learned.</p>
+                </div>
+            </div>
+            <!-- Card 2 -->
+            <div class="col-md-6 col-12 mt-4">
+                <div class="card h-100 p-3 course-card col">
+                    <img src="Assets/card-icon/icon-card2.svg" alt="Machine Learning Bootcamp Icon"
+                        class="course-icon mb-3">
+                    <h3 class="card-title">Learn More About Machine Learnings</h3>
+                    <div class="meta text-muted mb-2">
+                        <span class="bi bi-star-fill"> 4.8k</span>
+                        <span class="bi bi-stopwatch-fill"> 30 Hours</span>
+                        <span class="bi bi-file-bar-graph-fill"> Basic</span>
+                    </div>
+                    <p class="card-text">Focuses on what are the applications of machine learning in everyday life.
+                        As AI technology
                         develops, everything should be easy.</p>
                 </div>
-                <div class="col">
-                    <h3>CARD3</h3>
-                    <img src="Assets/card-icon/icon-card3.svg" alt="Front-End Bootcamp Icon">
-                    <h3>LearnAbout Front-End for Beginners</h3>
-                    <img src="Assets/star.svg" alt="rating-star">
-                    <img src="Assets/clock.svg" alt="clock-img">
-                    <img src="Assets/steps.svg" alt="steps-levels">
-                    <p>Learn more about the world of front end. About how to design a web application or mobile
-                        application to build an efficient software.</p>
+            </div>
+            <!-- Card 3 -->
+            <div class="col-md-6 col-12 mt-4">
+                <div class="card h-100 p-3 course-card col">
+                    <img src="Assets/card-icon/icon-card3.svg" alt="Front-End Bootcamp Icon" class="course-icon mb-3">
+                    <h3 class="card-title">Learn About Front-End for Beginners</h3>
+                    <div class="meta text-muted mb-2">
+                        <span class="bi bi-star-fill">4.8k</span>
+                        <span class="bi bi-stopwatch-fill">30 Hours</span>
+                        <span class="bi bi-file-bar-graph-fill">Basic</span>
+                    </div>
+                    <p class="card-text">Learn more about the world of front end. About how to design a web
+                        application or mobile application to build an efficient software.</p>
                 </div>
-                <div class="col">
-                    <h3>CARD4</h3>
-                    <img src="Assets/card-icon/icon-card4.svg" alt="Phyton Bootcamp Icon">
-                    <h3>Learn About Phyton Language</h3>
-                    <img src="Assets/star.svg" alt="rating-star">
-                    <img src="Assets/clock.svg" alt="clock-img">
-                    <img src="Assets/steps.svg" alt="steps-levels">
-                    <p>Learn phyton programming language as a foundation to continue into the world of AI or Machine
+            </div>
+            <!-- Card 4 -->
+            <div class="col-md-6 col-12 mt-4">
+                <div class="card h-100 p-3 course-card col">
+                    <img src="Assets/card-icon/icon-card4.svg" alt="Phyton Bootcamp Icon" class="course-icon mb-3">
+                    <h3 class="card-title">Learn About Phyton Language</h3>
+                    <div class="meta text-muted mb-2">
+                        <span class="bi bi-star-fill">4.8k</span>
+                        <span class="bi bi-stopwatch-fill">30 Hours</span>
+                        <span class="bi bi-file-bar-graph-fill">Basic</span>
+                    </div>
+                    <p class="card-text">Learn phyton programming language as a foundation to continue into the
+                        world of AI or Machine
                         Learnings.</p>
                 </div>
-                <div class="col">
-                    <h3>CARD5</h3>
-                    <img src="Assets/card-icon/icon-card5.svg" alt="UI/UX Bootcamp Icon">
-                    <h3>Learn Basic Coding Learn the Principles of UI/UX Design</h3>
-                    <img src="Assets/star.svg" alt="rating-star">
-                    <img src="Assets/clock.svg" alt="clock-img">
-                    <img src="Assets/steps.svg" alt="steps-levels">
-                    <p>Learn how to build high creativity in design, as well as the principles in designing a web
+            </div>
+            <!-- Card 5 -->
+            <div class="col-md-6 col-12 mt-4">
+                <div class="card h-100 p-3 course-card col">
+                    <img src="Assets/card-icon/icon-card5.svg" alt="UI/UX Bootcamp Icon" class="course-icon mb-3">
+                    <h3 class="card-title">Learn Basic Coding Learn the Principles of UI/UX Design</h3>
+                    <div class="meta text-muted mb-2">
+                        <span class="bi bi-star-fill">4.8k</span>
+                        <span class="bi bi-stopwatch-fill">30 Hours</span>
+                        <span class="bi bi-file-bar-graph-fill">Basic</span>
+                    </div>
+                    <p class="card-text">Learn how to build high creativity in design, as well as the principles in
+                        designing a web
                         application or mobile application.</p>
                 </div>
-                <div class="col">
-                    <h3>CARD6</h3>
-                    <img src="Assets/card-icon/icon-card6.svg" alt="Database Bootcamp Icon">
-                    <h3>Learn About Database Relationship with Code</h3>
-                    <img src="Assets/star.svg" alt="rating-star">
-                    <img src="Assets/clock.svg" alt="clock-img">
-                    <img src="Assets/steps.svg" alt="steps-levels">
-                    <p>Secure data storage in a database, structuring the flow of a program we create.</p>
+            </div>
+            <!-- Card 6 -->
+            <div class="col-md-6 col-12 mt-4">
+                <div class="card h-100 p-3 course-card col">
+                    <img src="Assets/card-icon/icon-card6.svg" alt="Database Bootcamp Icon" class="course-icon mb-3">
+                    <h3 class="card-title">Learn About Database Relationship with Code</h3>
+                    <div class="meta text-muted mb-2">
+                        <span class="bi bi-star-fill">4.8k</span>
+                        <span class="bi bi-stopwatch-fill">30 Hours</span>
+                        <span class="bi bi-file-bar-graph-fill">Basic</span>
+                    </div>
+                    <p class="card-text">Secure data storage in a database, structuring the flow of a program we create.
+                    </p>
                 </div>
-                <div class="col">
-                    <h3>CARD7</h3>
-                    <img src="Assets/card-icon/icon-card7.svg" alt="Nodejs Bootcamp Icon">
-                    <h3>Become a Node.js Aplication Developer</h3>
-                    <img src="Assets/star.svg" alt="rating-star">
-                    <img src="Assets/clock.svg" alt="clock-img">
-                    <img src="Assets/steps.svg" alt="steps-levels">
-                    <p>Learn the Node.js core module in depth to be able to build applications for various purposes
+            </div>
+            <!-- Card 7 -->
+            <div class="col-md-6 col-12 mt-4">
+                <div class="card h-100 p-3 course-card col">
+                    <img src="Assets/card-icon/icon-card7.svg" alt="Nodejs Bootcamp Icon" class="course-icon mb-3">
+                    <h3 class="card-title">Become a Node.js Aplication Developer</h3>
+                    <div class="meta text-muted mb-2">
+                        <span class="bi bi-star-fill">4.8k</span>
+                        <span class="bi bi-stopwatch-fill">30 Hours</span>
+                        <span class="bi bi-file-bar-graph-fill">Basic</span>
+                    </div>
+                    <p class="card-text">Learn the Node.js core module in depth to be able to build applications for
+                        various purposes
                         using JavaScript.</p>
                 </div>
-                <div class="col">
-                    <h3>CARD8</h3>
-                    <img src="Assets/card-icon/icon-card8.svg" alt="Java Bootcamp Icon">
-                    <h3>Getting Started Programming with Java</h3>
-                    <img src="Assets/star.svg" alt="rating-star">
-                    <img src="Assets/clock.svg" alt="clock-img">
-                    <img src="Assets/steps.svg" alt="steps-levels">
-                    <p>Learn to recognize a programming language, java, all the basics will be learned here.</p>
+            </div>
+            <!-- Card 8 -->
+            <div class="col-md-6 col-12 mt-4">
+                <div class="card h-100 p-3 course-card col">
+                    <img src="Assets/card-icon/icon-card8.svg" alt="Java Bootcamp Icon" class="course-icon mb-3">
+                    <h3 class="card-title">Getting Started Programming with Java</h3>
+                    <div class="meta text-muted mb-2">
+                        <span class="bi bi-star-fill">4.8k</span>
+                        <span class="bi bi-stopwatch-fill">30 Hours</span>
+                        <span class="bi bi-file-bar-graph-fill">Basic</span>
+                    </div>
+                    <p class="card-text">Learn to recognize a programming language, java, all the basics will be learned
+                        here.</p>
                 </div>
-                <div class="col">
-                    <h3>CARD9</h3>
-                    <img src="Assets/card-icon/icon-card9.svg" alt="Data Science Bootcamp Icon">
-                    <h3>Learn Data Science Basics</h3>
-                    <img src="Assets/star.svg" alt="rating-star">
-                    <img src="Assets/clock.svg" alt="clock-img">
-                    <img src="Assets/steps.svg" alt="steps-levels">
-                    <p>Learn the basics of data science from introducing data to creating a portfolio to lead you to
+            </div>
+            <!-- Card 9 -->
+            <div class="col-md-6 col-12 mt-4">
+                <div class="card h-100 p-3 course-card col">
+                    <img src="Assets/card-icon/icon-card9.svg" alt="Data Science Bootcamp Icon"
+                        class="course-icon mb-3">
+                    <h3 class="card-title">Learn Data Science Basics</h3>
+                    <div class="meta text-muted mb-2">
+                        <span class="bi bi-star-fill">4.8k</span>
+                        <span class="bi bi-stopwatch-fill">30 Hours</span>
+                        <span class="bi bi-file-bar-graph-fill">Basic</span>
+                    </div>
+                    <p class="card-text">Learn the basics of data science from introducing data to creating a portfolio
+                        to lead you to
                         become a data scientist.</p>
                 </div>
-                <div class="col">
-                    <h3>CARD10</h3>
-                    <img src="Assets/card-icon/icon-card10.svg" alt="JavaScript Bootcamp Icon">
-                    <h3>Learn More About JavaScript</h3>
-                    <img src="Assets/star.svg" alt="rating-star">
-                    <img src="Assets/clock.svg" alt="clock-img">
-                    <img src="Assets/steps.svg" alt="steps-levels">
-                    <p>Learn more about a web building technique with javascript.</p>
+            </div>
+            <!-- Card 10 -->
+            <div class="col-md-6 col-12 mt-4">
+                <div class="card h-100 p-3 course-card col">
+                    <img src="Assets/card-icon/icon-card10.svg" alt="JavaScript Bootcamp Icon" class="course-icon mb-3">
+                    <h3 class="card-title">Learn More About JavaScript</h3>
+                    <div class="meta text-muted mb-2">
+                        <span class="bi bi-star-fill">4.8k</span>
+                        <span class="bi bi-stopwatch-fill">30 Hours</span>
+                        <span class="bi bi-file-bar-graph-fill">Basic</span>
+                    </div>
+                    <p class="card-text">Learn more about a web building technique with javascript.</p>
                 </div>
             </div>
         </div>
+
     </div>
 
     <!-- FOOTER -->
-    <footer class="footer mt-auto">
+    <footer class="footer mt-5">
         <div class="container text-center">
             <img class="img-fluid" style="max-width: 120px;" src="Assets/Logo.svg" alt="Logo jobPortal">
             <p>Call now: <strong>+6282245580089</strong></p>
